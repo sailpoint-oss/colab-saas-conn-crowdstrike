@@ -5,14 +5,14 @@
 
 [discourse-shield]:https://img.shields.io/discourse/topics?label=Discuss%20This%20Tool&server=https%3A%2F%2Fdeveloper.sailpoint.com%2Fdiscuss
 [discourse-url]:https://developer.sailpoint.com/discuss/tag/workflows
-[issues-shield]:https://img.shields.io/github/issues/sailpoint-oss/repo-template?label=Issues
-[issues-url]:https://github.com/sailpoint-oss/repo-template/issues
-[release-shield]: https://img.shields.io/github/v/release/sailpoint-oss/repo-template?label=Current%20Release
-[release-url]:https://github.com/sailpoint-oss/repo-template/releases
-[contributor-shield]:https://img.shields.io/github/contributors/sailpoint-oss/repo-template?label=Contributors
-[contributors-url]:https://github.com/sailpoint-oss/repo-template/graphs/contributors
+[issues-shield]:https://img.shields.io/github/issues/sailpoint-oss/colab-sp-crowdstrike-poc?label=Issues
+[issues-url]:https://github.com/sailpoint-oss/colab-sp-crowdstrike-poc/issues
+[release-shield]: https://img.shields.io/github/v/release/sailpoint-oss/colab-sp-crowdstrike-poc?label=Current%20Release
+[release-url]:https://github.com/sailpoint-oss/colab-sp-crowdstrike-poc/releases
+[contributor-shield]:https://img.shields.io/github/contributors/sailpoint-oss/colab-sp-crowdstrike-poc?label=Contributors
+[contributors-url]:https://github.com/sailpoint-oss/colab-sp-crowdstrike-poc/graphs/contributors
 
-# application-title-here
+# CrowdStrike POC
 [Explore the docs »](https://your-link-to-colab-topic-here)
 
 [New to the CoLab? Click here »](https://developer.sailpoint.com/discuss/t/about-the-sailpoint-developer-community-colab/11230)
