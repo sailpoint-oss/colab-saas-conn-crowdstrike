@@ -1,0 +1,80 @@
+{
+	"name": "Crowdstrike Identity Protection Assessment",
+	"commands": [
+		"std:account:list",
+		"std:account:read",
+		"std:test-connection"
+	],
+	"sourceConfig": [
+		{
+			"type": "section",
+			"sectionTitle": "Crowdstrike Demo",
+			"items": [
+				{
+					"key": "clientId",
+					"label": "Crowdstrike Client ID",
+					"type": "text",
+					"required": true
+				},
+				{
+					"key": "clientSecret",
+					"label": "Crowdstrike Client Secret",
+					"type": "text",
+					"required": true
+				}
+			]
+		}
+	],
+	"accountSchema":{
+		"displayAttribute": "username",
+		"identityAttribute": "id",
+		"attributes":[
+			{
+				"name": "username",
+				"type": "string",
+				"description": "Display name of the account"
+			},
+			{
+				"name": "id",
+				"type": "string",
+				"description": "Unique identifier of the account"
+			},
+			{
+				"name": "emailAddress",
+				"type": "string",
+				"description": "Email Address of the account"
+			},
+			{
+				"name": "isHuman",
+				"type": "boolean",
+				"description": "Human User Account Role"
+			},
+			{
+				"name": "isProgrammatic",
+				"type": "boolean",
+				"description": "Programmatic User Account Role"
+			},
+			{
+				"name": "role",
+				"type": "string",
+				"description": "Entity role type"
+			},
+			{
+				"name": "riskScore",
+				"type": "int",
+				"description": "Attacked Risk Score of the account"
+			},
+			{
+				"name": "riskScoreSeverity",
+				"type": "string",
+				"description": "Attacked Risk Score of the account"
+			},
+			{
+				"name": "riskScore",
+				"type": "int",
+				"description": "Attacked Risk Score of the account"
+			}
+		]
+	},
+  "entitlementSchemas": []
+}
