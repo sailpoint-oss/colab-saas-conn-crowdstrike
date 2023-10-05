@@ -34,8 +34,6 @@ export class CrowdstrikeClient {
 
     async getAllUsers() {
         accessToken = await getToken(tokenAPI, this.clientId, this.clientSecret);
-        console.log("Result is" + accessToken);
-
         var data = JSON.stringify({
             query: `{
   # Query "Entities":
@@ -77,7 +75,7 @@ export class CrowdstrikeClient {
             variables: {}
         });
 
-        var config = {
+        const config = {
             method: 'post',
             url: 'https://api.crowdstrike.com/identity-protection/combined/graphql/v1',
             headers: {
@@ -122,7 +120,4 @@ async function getToken(tokenAPI: string, clientId: string | undefined, clientSe
             console.log(error);
         });
 }
-
-
-
 

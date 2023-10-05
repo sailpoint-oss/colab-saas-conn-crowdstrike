@@ -31,8 +31,5 @@ export class Util {
 function getDisplayName(displayName: any): string {
     const originalUserName = displayName.toLowerCase();
     const newUserName = originalUserName + '.' + originalUserName;
-    console.log(newUserName);
-
     return newUserName;
-
 }
