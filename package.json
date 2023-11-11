@@ -15,7 +15,7 @@
   "private": true,
   "dependencies": {
     "@sailpoint/connector-sdk": "github:sailpoint/saas-connector-sdk-js#main",
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "qs": "^6.11.0",
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0"
